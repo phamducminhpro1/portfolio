@@ -1,0 +1,15 @@
+{% extends "page/layout.html" %}
+{% load static %} 
+
+{% block head %} 
+<title> Home </title>
+{% endblock %}
+
+{% block body %}
+    <h2 style="text-align:center"> Hello! :)</h2>
+    <p class = "center"> I'm Minh, a sophomore majoring in Computer Science in TU/e. 
+    <p class = "center">I have 70 hours of experiece in web development and 50 hours in Competitive programming.  </p> 
+    <p class = "center"> When I am not working, I play guitar, soccer or go to the gym </p>
+    <p class = "center"> xxxxxx Below is another picture of me xxxxxx </p>
+    <img style="margin-left: auto; margin-right: auto;width: 50%;display:block" src="{% static 'page/fixing_problems.png' %}" alt="My picture">
+{% endblock %}
